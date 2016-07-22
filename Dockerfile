@@ -1,4 +1,4 @@
-FROM ubuntu:15.04
+FROM ubuntu:16.04
 MAINTAINER moremagic <itoumagic@gmail.com>
 
 RUN apt-get update && apt-get install -y openssh-server openssh-client
