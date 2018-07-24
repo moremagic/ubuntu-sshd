@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:18.10
 MAINTAINER moremagic <itoumagic@gmail.com>
 
 RUN apt-get update && apt-get install -y openssh-server openssh-client
